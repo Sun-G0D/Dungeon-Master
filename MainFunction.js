@@ -58,7 +58,7 @@ img.onload = function() {
   		
 		ctx.drawImage(img, x, y, 100, 100);
   		ctx.font = "100px Arial";
-  		ctx.fillText(juice, w/3, h/3);
+  		ctx.fillText(juice, 100, 100);
 } requestAnimationFrame(loop)
 }
 
